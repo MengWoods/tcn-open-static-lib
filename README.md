@@ -1,4 +1,4 @@
-# TCNOpenStaticLib
+# tcn-open-static-lib
 This is the static library (linux-x86) of [TCNOpen](https://github.com/T12z/TCNopen) project for train communication. 
 Train real time data protocol [TRDP](https://de.wikipedia.org/wiki/Train_Real_Time_Data_Protocol) is the major protocol in
 train communication network.
