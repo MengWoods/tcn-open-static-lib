@@ -7,9 +7,9 @@ train communication network.
 1. Clone the repository, put the repository under your project's `include` folder.
 2. In your code, include the needed librarys like this:
 ```
-#include <tcn-opne-static-lib/api/trdp_if_light.h>
-#include <tcn-opne-static-lib/api/tau_marshall.h>
-#include <tcn-opne-static-lib/vos/api/vos_utils.h>
+#include <tcn-open-static-lib/api/trdp_if_light.h>
+#include <tcn-open-static-lib/api/tau_marshall.h>
+#include <tcn-open-static-lib/vos/api/vos_utils.h>
 ...
 ```
 1. Then you are able to use the functions in the library, [here](https://github.com/T12z/TCNopen/tree/master/trdp/example) you could find some examples codes.
@@ -20,7 +20,7 @@ set(CMAKE_EXE_LINKER_FLAGS "-static-libgcc -static-libstdc++ -static")
 
 add_library(${PROJECT_NAME} STATIC ${PROJECT_SOURCE})
 
-target_link_libraries(${PROJECT_NAME} ${PROJECT_LIBS} ${PROJECT_SOURCE_DIR}/include/tcn-opne-static-lib/libtrdp.a)
+target_link_libraries(${PROJECT_NAME} ${PROJECT_LIBS} ${PROJECT_SOURCE_DIR}/include/tcn-open-static-lib/libtrdp.a)
 ```
 
 ## Build the static library yourself
